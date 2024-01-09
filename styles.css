@@ -23,3 +23,9 @@ body {
     height: auto;
     /* Altura automática para mantener la proporción */
 }
+button {
+    position: fixed; /* Posición fija en la pantalla */
+    left: 50%; /* Centrar horizontalmente */
+    bottom: 130px; /* Espaciado desde el fondo de la pantalla */
+    transform: translateX(-50%); /* Ajuste fino para centrar exactamente */
+}

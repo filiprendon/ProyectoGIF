@@ -11,6 +11,7 @@ function start() {
     parteDerecha.style.display = 'flex';
 
     document.getElementById('audio-pollo').play();
+    document.querySelector('button').style.display="none";
     // Animar las partes izquierda y derecha
     let posicion = 0;
     let intervalo = setInterval(function() {
