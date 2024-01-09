@@ -1,0 +1,17 @@
+#contenedor-imagen {
+    position: relative;
+}
+
+#parte-izquierda, #parte-derecha {
+    position: absolute;
+    top: 0;
+    display: none;
+}
+
+#parte-izquierda {
+    left: 0;
+}
+
+#parte-derecha {
+    right: 0;
+}
